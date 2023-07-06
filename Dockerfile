@@ -1,4 +1,4 @@
-FROM openjdk:20.0.1-jdk-slim
+FROM openjdk:17.0.1-jdk-slim
 ARG JAR_FILE=app/*.jar
 COPY ${JAR_FILE} app.jar
 EXPOSE 8080
